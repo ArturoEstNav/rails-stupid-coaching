@@ -1,0 +1,36 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$gayPurple: #8577A8;
+$lightGray: #858585;
+$darkGray: #3D3D3D;
+
+body {
+  width: 100%;
+}
+
+h1 {
+  color: $gayPurple;
+}
+
+p {
+  color: $lightGray;
+}
+
+a {
+  color: $lightGray;
+  font-weight: bold;
+  text-decoration: none;
+  &:hover {
+    color: $darkGray;
+  }
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.dark {
+  color: $darkGray;
+}
